@@ -1,4 +1,3 @@
 steps:
-  - name: python
-    entrypoint: python
-    args: ['quickstart-automate/main.py']
+  - name: golang
+    args: ['go', 'run', 'main.go']
